@@ -163,9 +163,9 @@ module OAuth2
 
     # For JWT tokens, this will store a Hash on the form
     # {
-    #   "exp": exp,
+    #   "exp": 1528562109,
     #   "nbf": 0,
-    #   "iat": now.to_i,
+    #   "iat": 1528560309,
     #   "iss": "https://example.com/auth/realms/issuer",
     #   "aud": "client-identifier",
     #   "sub": "subject-identifier",
